@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Byggmester Kåsa AS | Vi bygger fremtiden</title>
+<meta name="description" content="Byggmester Kåsa AS tilbyr nybygg, tilbygg, rehabilitering, takarbeid og totalentreprise på Østlandet.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#17253b;background:#fff;line-height:1.6}
+header{background:#10264a;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.logo{font-weight:900;font-size:22px;line-height:1.15}
+.logo span{color:#37b7f5}
+nav a{color:white;text-decoration:none;margin:0 7px;font-size:14px}
+.hero{padding:85px 7%;background:linear-gradient(115deg,#10264a,#1767a5);color:white}
+.hero h1{font-size:clamp(36px,7vw,64px);line-height:1.08;margin:0 0 20px;max-width:760px}
+.hero p{font-size:19px;max-width:620px}
+.btn{display:inline-block;background:#28a9ee;color:#082243;padding:13px 22px;border-radius:7px;text-decoration:none;font-weight:bold;margin:12px 8px 0 0}
+section{padding:55px 7%}
+h2{font-size:32px;line-height:1.2}
+.intro{max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:25px}
+.card{padding:23px;border:1px solid #dce5ef;border-radius:12px;background:#f7faff}
+.card .symbol{font-size:30px}
+.card h3{margin-bottom:5px}
+.highlight{background:#edf6ff}
+.contact{background:#10264a;color:white}
+footer{padding:22px 7%;background:#09182f;color:#d8e4f2;font-size:13px}
+a{overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">⌂ BYGGMESTER<br><span>KÅSA AS</span></div>
+  <nav>
+    <a href="#tjenester">Tjenester</a>
+    <a href="#om-oss">Om oss</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+<main>
+  <div class="hero">
+    <p>BYGGMESTER KÅSA AS</p>
+    <h1>Godt håndverk.<br>Bygget for fremtiden.</h1>
+    <p>Fra første idé til ferdig bygg. Vi hjelper deg med nybygg, tilbygg, rehabilitering og takarbeid.</p>
+    <a class="btn" href="#kontakt">Ta kontakt</a>
+    <a class="btn" href="#tjenester">Se våre tjenester</a>
+  </div>
+  <section id="tjenester">
+    <div class="intro">
+      <h2>Hva kan vi hjelpe deg med?</h2>
+      <p>Vi finner gode, praktiske løsninger og legger vekt på kvalitet i alle ledd.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="symbol">🏠</div><h3>Nybygg</h3><p>Nye boliger med fokus på godt håndverk og gjennomtenkte løsninger.</p></div>
+      <div class="card"><div class="symbol">🔨</div><h3>Tilbygg</h3><p>Mer plass og nye muligheter tilpasset boligen din.</p></div>
+      <div class="card"><div class="symbol">🛠️</div><h3>Rehabilitering</h3><p>Oppgradering og fornyelse av eldre bygg.</p></div>
+      <div class="card"><div class="symbol">🏡</div><h3>Takarbeid</h3><p>Vedlikehold, utskifting og oppgradering av tak.</p></div>
+      <div class="card"><div class="symbol">📐</div><h3>Totalentreprise</h3><p>Koordinering og gjennomføring av byggeprosjektet ditt.</p></div>
+      <div class="card"><div class="symbol">🧰</div><h3>Byggmester med løsninger</h3><p>Vi ser muligheter, løser utfordringer og holder fokus på sluttresultatet.</p></div>
+    </div>
+  </section>
+  <section id="om-oss" class="highlight">
+    <h2>Vi følger fremtiden!</h2>
+    <p class="intro">Byggmester Kåsa AS ønsker å gjøre byggeprosessen ryddig og oversiktlig. Vi tror på godt håndverk, tydelig kommunikasjon og løsninger som varer.</p>
+  </section>
+  <section id="kontakt" class="contact">
+    <h2>Har du et byggeprosjekt?</h2>
+    <p>Ta kontakt for en uforpliktende prat om nybygg, tilbygg, rehabilitering eller tak.</p>
+    <p><strong>Byggmester Kåsa AS</strong></p>
+    <p>Telefon: <a href="tel:+47XXXXXXXX" style="color:#54c4ff">Legg inn telefonnummer</a></p>
+    <p>E-post: <a href="mailto:din@epost.no" style="color:#54c4ff">Legg inn e-postadresse</a></p>
+  </section>
+</main>
+<footer>© <span id="year"></span> Byggmester Kåsa AS · Godt håndverk. Bygget for fremtiden.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
