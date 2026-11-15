@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#080808">
-  <title>Byggmester Kåsa AS | Tømrer, rehabilitering og stillas på Østlandet</title>
-  <meta name="description" content="Byggmester Kåsa AS leverer nybygg, tilbygg, rehabilitering, takarbeid og tømrerarbeid på Østlandet. Gjennom BK Stillas tilbyr vi også stillasutleie og montering.">
+  <title>Byggmester Kåsa AS og BK Stillas | Tømrer og stillasutleie på Østlandet</title>
+  <meta name="description" content="BK Stillas tilbyr stillasutleie og montering på Østlandet. Fasadestillas, HAKI aluminiumsstillas, lettstillas og trappetårn til takarbeid, rehabilitering, maling og vindusutskifting. HMS, presisjon og trygghet.">
   <meta property="og:title" content="Byggmester Kåsa AS – Godt håndverk. Bygget for fremtiden.">
   <meta property="og:description" content="Tømrerarbeid, rehabilitering og stillas på Østlandet. Ta kontakt for en uforpliktende prat.">
   <meta property="og:type" content="website">
@@ -37,6 +37,29 @@
     .stillas-grid{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:center;position:relative;z-index:1}.stillas-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0 0;padding:0;list-style:none}
     .stillas-list li{border:1px solid rgba(255,255,255,.17);border-radius:11px;padding:12px;color:#f1f5f9;background:rgba(255,255,255,.04)}
     .stillas-card{border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.07);border-radius:20px;padding:28px}.stillas-card strong{color:var(--gold);font-size:22px;display:block;margin-bottom:8px}
+    .stillas-intro{max-width:850px;margin-bottom:28px}
+    .stillas-intro .lead{font-size:clamp(18px,2.2vw,22px);color:#fff;font-weight:700}
+    .stillas-feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
+    .stillas-feature{border:1px solid rgba(255,255,255,.17);border-radius:16px;padding:20px;background:rgba(255,255,255,.055)}
+    .stillas-feature h3{margin:0 0 8px;color:var(--gold);font-size:18px}
+    .stillas-feature p{margin:0;color:#e1e0db;font-size:14px}
+    .stillas-detail-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start;margin-top:30px}
+    .stillas-detail{border:1px solid rgba(255,255,255,.16);border-radius:18px;padding:24px;background:rgba(255,255,255,.045)}
+    .stillas-detail h3{margin:0 0 14px;color:#fff;font-size:22px}
+    .stillas-detail p{color:#e1e0db}
+    .stillas-checks{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0;padding:0;list-style:none}
+    .stillas-checks li{padding:11px 12px;border-radius:10px;background:rgba(255,255,255,.06);color:#f3f0e9;font-size:14px}
+    .stillas-checks li:before{content:"✓";color:var(--gold);font-weight:900;margin-right:8px}
+    .stillas-process{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+    .stillas-step{padding:16px;border-radius:13px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12)}
+    .stillas-step b{display:block;color:var(--gold);margin-bottom:5px}
+    .stillas-step span{display:block;color:#e1e0db;font-size:14px}
+    .stillas-contact{margin-top:24px;padding:24px;border-radius:18px;background:linear-gradient(135deg,rgba(216,180,94,.16),rgba(255,255,255,.05));border:1px solid rgba(216,180,94,.35)}
+    .stillas-contact h3{color:#fff;margin:0 0 8px;font-size:22px}
+    .stillas-contact p{margin:0 0 16px;color:#f1eee7}
+    @media(max-width:820px){.stillas-feature-grid{grid-template-columns:repeat(2,1fr)}.stillas-detail-grid{grid-template-columns:1fr}.stillas-process{grid-template-columns:1fr}}
+    @media(max-width:520px){.stillas-feature-grid,.stillas-checks{grid-template-columns:1fr}.stillas-detail{padding:19px}}
+
     .contact{background:#f7f2e7;border-top:1px solid #e8d9b5}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:start}.contact p{color:#526176}
     .contact-card{background:#fff;border-radius:18px;padding:25px;border:1px solid #d7e4f1}.contact-card p{margin:10px 0}.contact-card a{color:#805c19;font-weight:700;text-decoration:none}.contact-card a:hover{text-decoration:underline}
     .social-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
@@ -99,14 +122,67 @@
       <div class="section-head"><div class="eyebrow">Fra arbeidshverdagen</div><h2>Prosjekter og referanser</h2><p>Vi ønsker å vise frem ekte arbeid fra byggeplassene våre. Her vil vi fortløpende legge ut bilder og korte beskrivelser fra gjennomførte oppdrag.</p></div>
       <div class="project-note"><strong>Har du et prosjekt du ønsker hjelp med?</strong><br>Ta kontakt for en uforpliktende prat om muligheter, omfang og fremdrift.</div>
     </div></section>
-    <section id="bk-stillas" class="stillas"><div class="container stillas-grid">
-      <div><div class="eyebrow">Egen avdeling · Stillasutleie</div><h2>BK Stillas</h2>
-        <p>BK Stillas tilbyr utleie og montering av stillas til byggeprosjekter på Østlandet. Vi bistår ved fasadearbeid, takarbeid, rehabilitering, maling og vindusutskifting.</p>
-        <ul class="stillas-list"><li>Fasadestillas</li><li>Trappetårn og adkomst</li><li>Stillas til takarbeid</li><li>Utleie og montering</li></ul>
-        <div class="actions"><a class="btn btn-primary" href="#kontakt-stillas">Forespørsel om stillas</a></div>
+    <section id="bk-stillas" class="stillas">
+      <div class="container">
+        <div class="stillas-intro">
+          <div class="eyebrow">Egen avdeling · Stillasutleie og montering</div>
+          <h2>BK Stillas – profesjonell stillasleverandør på Østlandet</h2>
+          <p class="lead">HMS · Presisjon · Trygghet</p>
+          <p>Vi bygger grunnlaget for seriøse prosjekter. BK Stillas leverer stillasutleie og montering for håndverkere, entreprenører, bedrifter og private kunder. Vi hjelper deg med å finne en praktisk og trygg stillasløsning tilpasset bygget, arbeidsoppgaven og prosjektets fremdrift.</p>
+          <p>Vi leverer på hele Østlandet og bistår ved både små og større oppdrag – fra stillas til vindusutskifting og maling, til større fasade- og takarbeider. Vi har HAKI aluminiumsstillas og lettstillas, og vurderer løsningen ut fra høyde, lengde, adkomst og hva som skal utføres.</p>
+        </div>
+
+        <div class="stillas-feature-grid">
+          <article class="stillas-feature"><h3>Fasadestillas</h3><p>Arbeidsstillas langs fasader ved maling, vedlikehold, rehabilitering, etterisolering og utskifting av kledning og vinduer.</p></article>
+          <article class="stillas-feature"><h3>HAKI aluminium og lettstillas</h3><p>Aluminiumssystemer og lette stillasløsninger som gir fleksibilitet ved montering, flytting og tilpasning til byggeplassen.</p></article>
+          <article class="stillas-feature"><h3>Trappetårn og adkomst</h3><p>Praktiske adkomstløsninger som gjør det enklere å komme trygt opp og ned mellom bakkenivå og arbeidsområdene.</p></article>
+          <article class="stillas-feature"><h3>Stillas til takarbeid</h3><p>Stillasløsninger ved takomlegging, reparasjoner, beslagarbeid og annet arbeid der håndverkerne trenger god adkomst langs bygget.</p></article>
+          <article class="stillas-feature"><h3>Stillas ved rehabilitering</h3><p>Tilrettelegging for oppussing og ombygging, enten arbeidet gjelder én fasade, flere sider eller større deler av bygget.</p></article>
+          <article class="stillas-feature"><h3>Utleie og montering</h3><p>Vi tilbyr stillasutleie og montering, med avklaring av omfang og leieperiode ut fra prosjektets behov.</p></article>
+        </div>
+
+        <div class="stillas-detail-grid">
+          <div class="stillas-detail">
+            <h3>Hvilke prosjekter kan vi hjelpe med?</h3>
+            <p>Stillas er en viktig del av en effektiv og sikker byggeplass. BK Stillas bistår blant annet med løsninger til:</p>
+            <ul class="stillas-checks">
+              <li>Vindusutskifting</li>
+              <li>Maling av hus og fasader</li>
+              <li>Takomlegging og takarbeid</li>
+              <li>Rehabilitering av fasader</li>
+              <li>Nybygg og tilbygg</li>
+              <li>Etterisolering og kledning</li>
+              <li>Vedlikehold av boliger</li>
+              <li>Arbeid for entreprenører</li>
+            </ul>
+          </div>
+          <div class="stillas-detail">
+            <h3>Trygghet og god planlegging</h3>
+            <p>God stillasplanlegging starter med å forstå jobben som skal gjøres. Vi legger vekt på riktig løsning, ryddig montering og at adkomst og sikring er tilpasset arbeidets art.</p>
+            <p>HMS, presisjon og trygghet skal være en naturlig del av leveransen. Vi avklarer blant annet byggets mål og høyde, hvor stillaset skal stå, adkomstforhold, ønsket leieperiode og hvilke arbeidsoppgaver stillaset skal brukes til.</p>
+            <p>Vårt mål er å gjøre det enklere for kunden å komme i gang med arbeidet – med en stillasløsning som er praktisk, oversiktlig og tilpasset prosjektet.</p>
+          </div>
+        </div>
+
+        <div class="stillas-detail" style="margin-top:24px">
+          <h3>Slik går vi frem</h3>
+          <div class="stillas-process">
+            <div class="stillas-step"><b>1. Behov og informasjon</b><span>Du forteller oss hvor prosjektet er, hva som skal utføres, omtrentlige mål og når stillaset skal brukes.</span></div>
+            <div class="stillas-step"><b>2. Vurdering og tilbud</b><span>Vi vurderer omfang, stillastype, adkomst og leieperiode, og følger opp med en aktuell løsning og pris.</span></div>
+            <div class="stillas-step"><b>3. Levering og montering</b><span>Vi avtaler gjennomføringen og monterer stillaset etter det som er avklart for oppdraget.</span></div>
+          </div>
+        </div>
+
+        <div class="stillas-contact" id="kontakt-stillas">
+          <h3>Trenger du stillas til neste prosjekt?</h3>
+          <p>Send oss gjerne adresse, noen bilder av bygget, hva slags arbeid som skal utføres og når du trenger stillaset. Da får vi et godt utgangspunkt for å vurdere oppdraget og gi deg en tilbakemelding.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="tel:+4740215813">Ring BK Stillas – 402 15 813</a>
+            <a class="btn btn-secondary" href="mailto:bkstillas@gmail.com?subject=Foresp%C3%B8rsel%20om%20stillas">Send forespørsel på e-post</a>
+          </div>
+        </div>
       </div>
-      <aside class="stillas-card" id="kontakt-stillas"><strong>BK Stillas – fleksibel stillasleverandør</strong><p>Ta kontakt for å fortelle om prosjektet, ønsket løsning, adresse og leieperiode. Vi vurderer behovet og følger opp med videre avklaring.</p><p><a class="btn btn-secondary" href="mailto:bkstillas@gmail.com?subject=Foresp%C3%B8rsel%20om%20stillas">Send forespørsel</a></p></aside>
-    </div></section>
+    </section>
     <section id="kontakt" class="contact"><div class="container contact-grid">
       <div><div class="eyebrow">Kontakt oss</div><h2>Har du et byggeprosjekt?</h2><p>Fortell oss kort hva du planlegger, så tar vi en prat om hvordan vi kan hjelpe. Vi tar oppdrag på hele Østlandet.</p><a class="btn btn-blue" href="tel:+4740215813">Ring oss</a></div>
       <div class="contact-card"><p><strong>Byggmester Kåsa AS</strong></p><p>Telefon: <a href="tel:+4740215813">402 15 813</a></p><p>E-post: <a href="mailto:bkstillas@gmail.com">bkstillas@gmail.com</a></p><p>Arbeidsområde: Hele Østlandet</p><hr style="border:0;border-top:1px solid #e2e8f0;margin:20px 0"><p><strong>BK Stillas</strong></p><p>Stillasutleie og montering</p><p><a href="mailto:bkstillas@gmail.com?subject=Foresp%C3%B8rsel%20om%20stillas">Kontakt BK Stillas</a></p><hr style="border:0;border-top:1px solid #e2e8f0;margin:20px 0"><p><strong>Følg oss på sosiale medier</strong></p><div class="social-links"><a href="https://www.facebook.com/profile.php?id=61595675554910" target="_blank" rel="noopener noreferrer"><span class="social-mark">f</span> Facebook</a><a href="https://www.instagram.com/byggmester_kasa" target="_blank" rel="noopener noreferrer"><span class="social-mark">◎</span> Instagram</a></div></div>
