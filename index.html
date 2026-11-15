@@ -77,6 +77,14 @@
     .project-text-card ul{padding-left:20px;color:#625d53;margin:12px 0 0}
     .service-band{margin-top:25px;padding:22px;border-radius:16px;background:#f5f1e8;border:1px solid #e8dfcc;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
     .service-band p{margin:0;color:#5c574e;max-width:760px}
+    .service-promo{display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,.65fr);gap:24px;align-items:center;margin-top:26px;padding:22px;border:1px solid #e7dfcf;border-radius:18px;background:#fff}
+    .service-promo h3{margin:10px 0 6px;color:#171717;font-size:24px}
+    .service-promo p{margin:0;color:#66645f}
+    .service-promo img{display:block;width:100%;border-radius:12px}
+    a:focus-visible,button:focus-visible{outline:3px solid #d8b45e;outline-offset:3px}
+    section[id],div[id]{scroll-margin-top:210px}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+
     .about-facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
     .about-fact{padding:13px;border:1px solid rgba(255,255,255,.16);border-radius:12px;background:rgba(255,255,255,.06)}
     .about-fact b{display:block;color:var(--gold);font-size:18px}
@@ -89,6 +97,7 @@
     .contact-options a:hover{background:#f7edda}
     @media(max-width:820px){.project-grid{grid-template-columns:1fr}.project-card img{height:230px}.stillas-visuals{grid-template-columns:1fr}.stillas-visuals img{height:auto;max-height:340px}.project-gallery img{height:120px}}
     @media(max-width:520px){.project-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.project-gallery img{height:105px}.project-body{padding:18px}.about-facts{grid-template-columns:1fr}}
+    @media(max-width:640px){.service-promo{grid-template-columns:1fr}.service-promo img{max-height:240px;object-fit:cover}}
 
     .stillas{background:linear-gradient(120deg,#050505,#211c12);color:#fff;position:relative;overflow:hidden}.stillas h2{color:#fff;font-size:clamp(34px,4.5vw,48px)}.stillas p{color:#e1e9f4}.stillas .eyebrow{color:var(--gold)}
     .stillas-grid{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:center;position:relative;z-index:1}.stillas-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0 0;padding:0;list-style:none}
@@ -165,9 +174,9 @@
         <article class="service"><div class="icon">🧰</div><h3>Arbeid for entreprenører</h3><p>Tømrerarbeid som underentreprenør og ekstra kapasitet ved behov i prosjektet.</p></article>
         <article class="service"><div class="icon">🏗️</div><h3>Stillas gjennom BK Stillas</h3><p>Stillasutleie og montering til byggeprosjekter på Østlandet – se egen presentasjon av BK Stillas.</p><a class="service-link" href="#bk-stillas">Les mer om BK Stillas →</a></article>
       </div>
-      <div class="service-promo" style="display:grid;grid-template-columns:minmax(0,1fr) minmax(220px,.65fr);gap:24px;align-items:center;margin-top:26px;padding:22px;border:1px solid #e7dfcf;border-radius:18px;background:#fff">
-        <div><span class="section-kicker">Fleksible tjenester</span><h3 style="margin:10px 0 6px;color:#171717;font-size:24px">Fra enkeltarbeid til komplette oppdrag</h3><p style="margin:0;color:#66645f">Vi tar på oss både mindre tømreroppgaver og større oppgraderinger. Ta kontakt for en prat om hva du ønsker å få gjort – så ser vi på mulighetene sammen.</p></div>
-        <img src="images/byggmester-tjenester.webp" alt="Byggmester Kåsa – eksempler på byggetjenester" loading="lazy" style="width:100%;border-radius:12px">
+      <div class="service-promo">
+        <div><span class="section-kicker">Fleksible tjenester</span><h3>Fra enkeltarbeid til komplette oppdrag</h3><p>Vi tar på oss både mindre tømreroppgaver og større oppgraderinger. Ta kontakt for en prat om hva du ønsker å få gjort – så ser vi på mulighetene sammen.</p></div>
+        <img src="images/byggmester-tjenester.webp" alt="Byggmester Kåsa – eksempler på byggetjenester" loading="lazy">
       </div>
       <div class="service-band"><p><strong>Har du et prosjekt som ikke står på listen?</strong> Vi vurderer gjerne oppdraget sammen med deg og finner ut hvilke løsninger som kan passe.</p><a class="btn btn-blue" href="#kontakt">Beskriv prosjektet ditt</a></div>
     </div></section>
