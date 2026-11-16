@@ -96,3 +96,28 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
  .mobile-contact a:last-child{border:1px solid rgba(255,255,255,.4);color:#fff}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+
+/* Samarbeidsside – harmonisert med Byggmester Kåsa-profilen */
+.partner-hero{background:radial-gradient(circle at 78% 40%,#28231a 0,#151515 34%,#050505 76%);color:#fff;padding:54px 0 62px;border-bottom:1px solid rgba(216,180,94,.3)}
+.partner-hero-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(300px,.92fr);gap:42px;align-items:center}
+.partner-hero h1{font-size:clamp(38px,5vw,62px);line-height:1.06;letter-spacing:-.04em;margin:12px 0 18px;max-width:760px}
+.partner-hero p{max-width:690px;color:#e7e2d7;font-size:18px;margin:0}
+.partner-photo{position:relative;overflow:hidden;border:1px solid rgba(216,180,94,.4);border-radius:20px;background:#171717;box-shadow:0 22px 56px rgba(0,0,0,.32)}
+.partner-photo img{display:block;width:100%;height:360px;object-fit:cover}
+.partner-photo span{position:absolute;bottom:0;left:0;right:0;padding:34px 18px 15px;background:linear-gradient(transparent,rgba(0,0,0,.82));color:#fff;font-size:13px;font-weight:800}
+.partner-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.partner-card{padding:25px;border:1px solid #e8dfcc;border-radius:17px;background:#fff;box-shadow:0 8px 26px rgba(20,18,12,.045)}
+.partner-number{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:11px;background:#f5ecd5;border:1px solid #ead7a8;color:#755515;font-weight:900;margin-bottom:14px}
+.partner-card h3{margin:0 0 8px;font-size:20px;color:#191713}
+.partner-card p{margin:0;color:#6d685f;font-size:15px}
+.partner-band{background:#f7f3ea;border-top:1px solid #e8dfcc;border-bottom:1px solid #e8dfcc}
+.partner-process{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.partner-step{padding:21px;background:#fff;border:1px solid #e8dfcc;border-radius:15px}
+.partner-step b{display:block;color:#8b681f;font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+.partner-step h3{margin:0 0 7px;font-size:18px;color:#1a1814}
+.partner-step p{margin:0;color:#6d685f;font-size:15px}
+.partner-checklist{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0 0;padding:0;list-style:none}
+.partner-checklist li{padding:12px 14px;border-radius:10px;background:#f7f3ea;border:1px solid #e8dfcc;color:#4f493e;font-size:14px}
+.partner-checklist li:before{content:"✓";color:#9a7224;font-weight:900;margin-right:9px}
+@media(max-width:900px){.partner-hero-grid{grid-template-columns:1fr;gap:26px}.partner-photo img{height:320px}.partner-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.partner-hero{padding:38px 0 44px}.partner-hero h1{font-size:clamp(36px,10vw,48px)}.partner-hero p{font-size:16px}.partner-photo img{height:240px}.partner-grid,.partner-process,.partner-checklist{grid-template-columns:1fr}.partner-card{padding:20px}}
