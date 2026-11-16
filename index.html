@@ -42,8 +42,8 @@
     .container{width:min(1160px,calc(100% - 40px));margin:0 auto}
     .topbar{background:#030303;color:#eee7d8;font-size:13px}.topbar .container{display:flex;justify-content:space-between;gap:16px;padding:8px 0;flex-wrap:wrap}
     header{background:#080808;color:#fff;position:sticky;top:0;z-index:20;box-shadow:0 4px 18px rgba(0,0,0,.12)}
-    .nav-wrap{min-height:165px;display:flex;align-items:center;justify-content:space-between;gap:26px}
-    .brand img{display:block;width:310px;max-width:100%;height:auto;max-height:150px;object-fit:contain;border-radius:0;filter:drop-shadow(0 3px 12px rgba(216,180,94,.2))}
+    .nav-wrap{min-height:190px;display:flex;align-items:center;justify-content:space-between;gap:26px}
+    .brand img{display:block;width:300px;max-width:100%;height:auto;max-height:none;object-fit:contain;object-position:left center;border-radius:0;filter:drop-shadow(0 2px 9px rgba(216,180,94,.16))}
     nav{display:flex;align-items:center;gap:22px;flex-wrap:wrap}nav a{color:#fff;text-decoration:none;font-size:14px;font-weight:700}nav a:hover{color:var(--gold)}nav .nav-cta{background:var(--gold);color:#17233a;padding:10px 16px;border-radius:9px}
     .hero{color:#fff;background:radial-gradient(circle at 78% 48%,#28231a 0,#151515 28%,#050505 72%);padding:76px 0 82px;border-top:1px solid rgba(216,180,94,.22);border-bottom:1px solid rgba(216,180,94,.22)}
     .eyebrow{letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:800;font-size:12px}
@@ -142,13 +142,13 @@
 
     footer{background:#050505;color:#d8d0bf;border-top:1px solid rgba(216,180,94,.25);padding:28px 0;font-size:13px}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer-inner a{color:#e3c16c;text-decoration:none}
     @media(max-width:820px){.nav-wrap{padding:13px 0;align-items:flex-start;flex-direction:column;gap:12px}nav{gap:14px}.services-grid{grid-template-columns:repeat(2,1fr)}.about-grid,.stillas-grid,.contact-grid{grid-template-columns:1fr;gap:26px}.hero{padding:68px 0 75px}}
-    @media(max-width:520px){.container{width:calc(100% - 28px)}.brand img{width:245px;height:auto;max-height:125px}nav{gap:11px}nav a{font-size:13px}.services-grid,.stillas-list{grid-template-columns:1fr}section{padding:56px 0}.topbar .container{font-size:12px}}
+    @media(max-width:520px){.container{width:calc(100% - 28px)}.brand img{width:250px;height:auto;max-height:none;object-position:left center}nav{gap:11px}nav a{font-size:13px}.services-grid,.stillas-list{grid-template-columns:1fr}section{padding:56px 0}.topbar .container{font-size:12px}}
   </style>
 </head>
 <body id="toppen">
   <div class="topbar"><div class="container"><span>Byggmester Kåsa AS · Oppdrag på hele Østlandet</span><span>Tømrerarbeid · Rehabilitering · Stillas</span><span><a href="tel:+4740215813" style="color:inherit;text-decoration:none;font-weight:700">Ring 402 15 813</a></span></div></div>
   <header><div class="container nav-wrap">
-    <a class="brand" href="#toppen" aria-label="Byggmester Kåsa AS – svart og gull logo – forsiden"><img src="byggmester-kasa-logo-transparent.png" alt="Byggmester Kåsa AS – svart og gull logo"></a>
+    <a class="brand" href="#toppen" aria-label="Byggmester Kåsa AS – forsiden"><img src="byggmester-kasa-logo-transparent.png?v=2" alt="Byggmester Kåsa AS – original logo i gull og sølv"></a>
     <nav aria-label="Hovedmeny"><a href="#tjenester">Tjenester</a><a href="#prosjekter">Prosjekter</a><a href="#om-oss">Om oss</a><a href="#bk-stillas">BK Stillas</a><a href="#sporsmal">Spørsmål</a><a class="nav-cta" href="#kontakt">Kontakt oss</a></nav>
   </div></header>
   <main>
@@ -327,9 +327,9 @@
           </div>
           <div class="stillas-detail">
             <h3>Trygghet og god planlegging</h3>
-            <p>God stillasplanlegging starter med å forstå jobben som skal gjøres. Vi legger vekt på riktig løsning, ryddig montering og at adkomst og sikring er tilpasset arbeidets art.</p>
+            <p>God stillasplanlegging starter med å forstå jobben som skal gjøres. Vi legger vekt på riktig løsning, ryddig montering og at adkomst og sikring er tilpasset arbeidets art. Før tilbudet utarbeides, går vi gjennom byggets mål, plassering, adkomst og de arbeidsoperasjonene stillaset skal brukes til.</p>
             <p>HMS, presisjon og trygghet skal være en naturlig del av leveransen. Vi avklarer blant annet byggets mål og høyde, hvor stillaset skal stå, adkomstforhold, ønsket leieperiode og hvilke arbeidsoppgaver stillaset skal brukes til.</p>
-            <p>Vårt mål er å gjøre det enklere for kunden å komme i gang med arbeidet – med en stillasløsning som er praktisk, oversiktlig og tilpasset prosjektet.</p>
+            <p>Vårt mål er å gjøre det enklere for kunden å komme i gang med arbeidet – med en stillasløsning som er praktisk, oversiktlig og tilpasset prosjektet. Vi avklarer også forventet leieperiode, levering og tidspunkt for demontering, slik at kunden får en tydelig avtale om gjennomføringen.</p>
           </div>
         </div>
 
@@ -351,6 +351,7 @@
           <div class="stillas-detail">
             <h3>Tilpasset arbeidsoppgaven</h3>
             <p>Behovet er forskjellig fra prosjekt til prosjekt. Ved vindusutskifting er god tilgang langs fasaden viktig. Ved maling og fasadearbeid må arbeidsnivåene passe til høyden og lengden på veggen. Ved takarbeid må adkomst og plassering vurderes ut fra byggets utforming og arbeidet som skal utføres.</p>
+            <p>Vi vurderer også grunnforhold, plass til stillasmateriell og mulige hindringer som inngangspartier, terrasser, trapper og skrånende terreng. Dette gir et bedre grunnlag for å planlegge en løsning som passer byggeplassen.</p>
             <p>Vi tar en gjennomgang av oppdraget før vi anbefaler en løsning. Målet er at stillaset skal fungere godt for dem som faktisk skal bruke det.</p>
           </div>
         </div>
