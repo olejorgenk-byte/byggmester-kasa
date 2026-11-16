@@ -34,7 +34,7 @@ h1{font-size:clamp(38px,5vw,62px);line-height:1.06;letter-spacing:-.04em;margin:
 .btn-secondary{border-color:rgba(255,255,255,.5);color:#fff;background:rgba(255,255,255,.06)}
 .hero-photo{position:relative;overflow:hidden;border:1px solid rgba(216,180,94,.4);border-radius:20px;background:#171717;box-shadow:0 22px 56px rgba(0,0,0,.32)}
 .hero-photo img{display:block;width:100%;height:360px;object-fit:cover}
-.photo-caption{position:absolute;left:0;right:0;bottom:0;padding:34px 18px 16px;background:linear-gradient(transparent,rgba(0,0,0,.82));color:#fff;font-size:13px;font-weight:800}
+.photo-caption{position:absolute;left:0;right:0;bottom:0;padding:34px 18px 16px;background:linear-gradient(transparent,rgba(0,0,0,.82));color:#fff;font-size:13px;font-weight:800}.photo-credit{display:block;margin-top:4px;color:#e6e0d3;font-size:11px;font-weight:400;letter-spacing:.02em}
 section{padding:66px 0}
 .section-head{max-width:790px;margin:0 0 30px}
 .section-head h2{font-size:clamp(29px,4vw,42px);line-height:1.12;letter-spacing:-.03em;margin:9px 0 12px;color:#161411}
