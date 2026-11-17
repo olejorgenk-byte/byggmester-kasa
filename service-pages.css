@@ -126,3 +126,5 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var
 .partner-checklist li:before{content:"✓";color:#9a7224;font-weight:900;margin-right:9px}
 @media(max-width:900px){.partner-hero-grid{grid-template-columns:1fr;gap:26px}.partner-photo img{height:320px}.partner-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.partner-hero{padding:38px 0 44px}.partner-hero h1{font-size:clamp(36px,10vw,48px)}.partner-hero p{font-size:16px}.partner-photo img{height:240px}.partner-grid,.partner-process,.partner-checklist{grid-template-columns:1fr}.partner-card{padding:20px}}
+
+.partner-photo span a{color:inherit;text-decoration:underline;text-underline-offset:2px}.partner-photo span small{font-size:11px;font-weight:400;letter-spacing:.02em}
