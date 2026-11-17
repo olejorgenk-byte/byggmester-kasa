@@ -135,6 +135,15 @@
     @media(max-width:820px){.stillas-feature-grid{grid-template-columns:repeat(2,1fr)}.stillas-detail-grid{grid-template-columns:1fr}.stillas-process{grid-template-columns:1fr}}
     @media(max-width:520px){.stillas-feature-grid,.stillas-checks{grid-template-columns:1fr}.stillas-detail{padding:19px}}
 
+
+    .master-badge{display:inline-flex;align-items:center;gap:15px;margin-top:26px;padding:11px 17px 11px 12px;border:1px solid rgba(216,180,94,.55);border-radius:14px;background:rgba(255,255,255,.07);max-width:390px;color:#fff}
+    .master-badge img{width:76px;height:64px;object-fit:contain;background:#fff;border-radius:8px;padding:3px;flex:0 0 auto}
+    .master-badge strong{display:block;color:#e6c875;font-size:14px;line-height:1.35}
+    .master-badge span{display:block;color:#e8e3d8;font-size:12px;line-height:1.45;margin-top:3px}
+    .footer-master{display:inline-flex;align-items:center;gap:8px;color:#e3c16c!important;font-weight:700}
+    .footer-master img{width:34px;height:29px;object-fit:contain;background:#fff;border-radius:4px;padding:2px}
+    @media(max-width:520px){.master-badge{max-width:100%;margin-top:20px}.master-badge img{width:65px;height:56px}}
+
     .contact{background:#f7f2e7;border-top:1px solid #e8d9b5}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:start}.contact p{color:#526176}
     .contact-card{background:#fff;border-radius:18px;padding:25px;border:1px solid #d7e4f1}.contact-card p{margin:10px 0}.contact-card a{color:#805c19;font-weight:700;text-decoration:none}.contact-card a:hover{text-decoration:underline}
     .social-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
@@ -265,6 +274,7 @@
         <p>Fra første idé til ferdig prosjekt. Vi utfører nybygg, tilbygg, rehabilitering, takarbeid og tømreroppdrag – med fokus på kvalitet, god kommunikasjon og ryddig gjennomføring.</p>
         <div class="actions"><a class="btn btn-primary" href="#kontakt">Be om et uforpliktende tilbud</a><a class="btn btn-secondary" href="#prosjekter">Se utførte prosjekter</a></div>
         <div class="trust-row"><span>Oppdrag på hele Østlandet</span><span>Privat og proff</span><span>Bygg og stillas</span></div>
+        <div class="master-badge" aria-label="Mestermerket – byggmesterkompetanse"><img src="images/mestermerke.svg" alt="Mestermerket, kompetansemerke for byggmester" loading="eager" decoding="async"><div><strong>Mestermerket</strong><span>Et synlig merke på byggmesterkompetansen bak arbeidet.</span></div></div>
       </div>
       <div class="hero-visual">
         <img src="images/gjerdrum-tak-02.webp" alt="Tømrerarbeid på tak i et boligprosjekt i Gjerdrum" fetchpriority="high" decoding="async">
@@ -616,7 +626,7 @@
   </div>
 </section>
   </main>
-  <footer><div class="container footer-inner"><span>© <span id="year"></span> Byggmester Kåsa AS · Godt håndverk. Bygget for fremtiden.</span><span><a href="samarbeid.html">For bedrifter</a> · <a href="#bk-stillas">BK Stillas</a> · <a href="#kontakt">Kontakt</a></span></div></footer>
+  <footer><div class="container footer-inner"><span>© <span id="year"></span> Byggmester Kåsa AS · Godt håndverk. Bygget for fremtiden.</span><span class="footer-master"><img src="images/mestermerke.svg" alt="" loading="lazy">Byggmesterkompetanse</span><span><a href="samarbeid.html">For bedrifter</a> · <a href="#bk-stillas">BK Stillas</a> · <a href="#kontakt">Kontakt</a></span></div></footer>
   <div class="mobile-contact-bar" aria-label="Rask kontakt"><a href="tel:+4740215813">Ring oss</a><a href="#kontakt">Be om tilbud</a></div>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
