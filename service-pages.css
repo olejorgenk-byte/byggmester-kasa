@@ -31,6 +31,11 @@ h1{font-size:clamp(38px,5vw,62px);line-height:1.06;letter-spacing:-.04em;margin:
 .btn{display:inline-flex;justify-content:center;align-items:center;padding:13px 19px;border-radius:10px;text-decoration:none;font-weight:900;border:1px solid transparent;transition:transform .2s ease,background .2s ease}
 .btn:hover{transform:translateY(-2px)}
 .btn-primary{background:linear-gradient(135deg,#e4c574,#b98b34);color:#17130b}
+.startbank-badge{display:inline-flex;align-items:center;gap:14px;margin-top:20px;padding:10px 15px 10px 10px;max-width:390px;border:1px solid rgba(216,180,94,.5);border-radius:14px;background:rgba(255,255,255,.07);color:#fff}
+.startbank-badge img{display:block;width:92px;height:62px;object-fit:contain;background:#fff;border-radius:8px;padding:3px;flex:0 0 auto}
+.startbank-badge strong{display:block;color:#e6c875;font-size:14px;line-height:1.35}
+.startbank-badge span{display:block;color:#e8e3d8;font-size:12px;line-height:1.45;margin-top:3px}
+@media(max-width:560px){.startbank-badge{max-width:100%;gap:10px;padding:9px}.startbank-badge img{width:78px;height:56px}}
 .btn-secondary{border-color:rgba(255,255,255,.5);color:#fff;background:rgba(255,255,255,.06)}
 .hero-photo{position:relative;overflow:hidden;border:1px solid rgba(216,180,94,.4);border-radius:20px;background:#171717;box-shadow:0 22px 56px rgba(0,0,0,.32)}
 .hero-photo img{display:block;width:100%;height:360px;object-fit:cover}
